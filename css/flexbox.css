@@ -1,0 +1,178 @@
+/*HEADER*/
+
+.headerPrincipal .container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.headerPrincipal-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+/*ABOUT*/
+.title__div{
+    display: flex;
+    justify-content: center;
+}
+
+.title__network{
+    display: flex;
+   
+    justify-content: space-around;
+
+}
+.hiddenList{
+    display: flex;
+    justify-content: space-around;
+}
+.linksredes{
+    display:block;
+    align-items: center;
+
+}
+
+/*SKILLS*/
+.skills__line{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow:wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+li.skills__line{
+    align-items: center;
+}
+.skills__box{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+/*TOOLS*/
+.tools{
+    display: flex;
+    flex-direction: column;
+}
+.tools__line{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow:wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+li.tools__line{
+    text-align: center;
+}
+
+div.tools__box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+/*HOBBIES*/
+
+.hobbies__line{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+/*ACADEMIC*/
+.academic__courses{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+
+/*CONTACT*/
+
+.formcontato--esquerda{
+display: flex;
+justify-content:center;
+}
+
+
+
+.formcontato__form{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 10px ;
+}
+
+/*FOOTER*/
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.footer__rodape{
+display:contents;
+justify-content: center;
+}
+
+/*RESPONSIVE*/
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+}
+
+
+@media (max-width:780px) {
+/*HEADER*/
+/*.headerPrincipal .container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+ }
+ .headerPrincipal-nav{
+     flex-direction:row;
+     flex-wrap: wrap;
+ }*/
+}
+
+
+
