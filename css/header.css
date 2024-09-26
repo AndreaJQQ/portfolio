@@ -5,7 +5,9 @@
 	background-color: #3c6577;
 	text-decoration:none;
 	transition: .5s;
-	display: block;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 	border-bottom: 1px solid #9799A6;
 }
 .nombreTitulo{

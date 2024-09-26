@@ -3,6 +3,8 @@
 }
 .perfil{
     padding-bottom:20px;
+    display: flex;
+	flex-wrap: wrap;
 }
 .foto__perfil{
     width: 300px;
@@ -50,18 +52,22 @@
     color:rgb(205, 225, 235);
     padding: 30px;
     background-color:#173e4e;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
     border-radius: 5% ;
     border-color: #3a7c96;
     border-style:outset;
     text-align: center;
     transition: 3s;
+    display: flex;
+	flex-wrap: wrap;
 }
 
 .aboutme{
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+	flex-wrap: wrap;
 }
 .aboutme:hover{
     background-color: rgb(232, 240, 247);

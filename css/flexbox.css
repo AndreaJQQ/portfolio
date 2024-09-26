@@ -8,7 +8,7 @@
 .headerPrincipal-nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
 
 }
@@ -17,8 +17,20 @@
 .title__div{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.about__tittle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about__paragraph{
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+	flex-wrap: wrap;
+}
 .title__network{
     display: flex;
    
@@ -30,7 +42,7 @@
     justify-content: space-around;
 }
 .linksredes{
-    display:block;
+    display:flex;
     align-items: center;
 
 }
@@ -54,7 +66,7 @@ li.skills__line{
 }
 .skills__box{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 10px;
 }
 
@@ -96,6 +108,9 @@ div.tools__box{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
 }
 
 
@@ -105,6 +120,7 @@ div.tools__box{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .card__content{
     display: flex;
@@ -119,6 +135,7 @@ div.tools__box{
 .formcontato--esquerda{
 display: flex;
 justify-content:center;
+flex-wrap: wrap;
 }
 
 
@@ -157,21 +174,93 @@ justify-content: center;
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 300px) {
+    .headerPrincipal .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+     .headerPrincipal-nav{
+         
+         flex-wrap: wrap;
+     }
+    
+     /*ABOUT*/
+    .aboutMe{
+        flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    /*SKILLS*/
+
+ 
+    
+    /*TOOLS*/
+    .tools {
+    }
+    /*HOBBIES*/
+    .hobbies {
+    
+    
+
+    }
+    /*PROJECTS*/
+    .xp{
+    }
+    /*FORMACION*/
+    
+    
+     /*FOOTER*/
+    
+     .footer-nav{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-content: center;
+    }
 }
 
 
 @media (max-width:780px) {
 /*HEADER*/
-/*.headerPrincipal .container{
+.headerPrincipal .container{
     display: flex;
     gap: 10px;
     justify-content: space-around;
  }
  .headerPrincipal-nav{
-     flex-direction:row;
      flex-wrap: wrap;
- }*/
+ }
+
+ /*ABOUT*/
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*SKILLS*/
+
+
+/*TOOLS*/
+.tools {
+}
+/*HOBBIES*/
+.hobbies {
+}
+/*PROJECTS*/
+.xp{
+}
+/*FORMACION*/
+
+
+ /*FOOTER*/
+
+.footer-nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
 }
 
 
